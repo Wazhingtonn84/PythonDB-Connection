@@ -1,6 +1,6 @@
 import mysql.connector
 # connecting to the database
-dataBase= mysql.connector.connect(host="localhost", user="root", passwd="wazhingtonn3184", database="SOFTWARE")
+dataBase= mysql.connector.connect(host="localhost", user="root", passwd="", database="SOFTWARE")
 # preparing a cursor object
 cursorObject= dataBase.cursor()
 # creating table
